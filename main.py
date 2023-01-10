@@ -44,6 +44,6 @@ while True:
             window['password'].update("[ERRO] Please write just numbers")
     elif event == 'copy':
         pyperclip.copy(text)
-        window['copy_menssage'].update('Sucessy copied')
+        window['copy_menssage'].update('Successy copied')
 
 window.close()
